@@ -59,6 +59,10 @@ export interface Activity {
   isMichelin?: boolean;
   isPopular?: boolean;
   isFixedPlan?: boolean;
+  // Geolocation fields
+  latitude?: number;
+  longitude?: number;
+  placeId?: string;
 }
 
 export interface DayPlan {
